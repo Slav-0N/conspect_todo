@@ -1,13 +1,13 @@
 import { MdClose } from "react-icons/md";
 import css from "./Task.module.css";
 import { useDispatch } from "react-redux";
-import { deleteTask, toggleCompleted } from "../../redux/taskSlice";
+import { deleteTask, toggleCompleted } from "../../redux/operations";
 
 export const Task = ({ task }) => {
   const dispatch = useDispatch();
 
-  const handleDelete = (id) => dispatch(deleteTask(id));
-  const handleToggle = (id) => dispatch(toggleCompleted(id));
+  const handleDelete = () => dispatch(deleteTask(task.id));
+  const handleToggle = () => dispatch(toggleCompleted(task));
 
   return (
     <div className={css.wrapper}>
@@ -15,10 +15,10 @@ export const Task = ({ task }) => {
         type="checkbox"
         className={css.checkbox}
         checked={task.completed}
-        onChange={() => handleToggle(task.id)}
+        onChange={() => handleToggle()}
       />
       <p className={css.text}>{task.text}</p>
-      <button className={css.btn} onClick={() => handleDelete(task.id)}>
+      <button className={css.btn} onClick={() => handleDelete()}>
         <MdClose size={24} />
       </button>
     </div>
