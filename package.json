@@ -1,9 +1,8 @@
 {
   "name": "conspect_todo",
   "version": "0.1.0",
-  "homepage": "https://Slav-0N.github.io/conspect_todo/",
-  
   "private": true,
+  "homepage": "https://Slav-0N.github.io/conspect_todo/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
