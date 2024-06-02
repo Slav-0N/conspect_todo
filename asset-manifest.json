@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//slav-0n.github.io/conspect_todo/static/css/main.d5e7bbf7.css",
+    "main.js": "/https//slav-0n.github.io/conspect_todo/static/js/main.decdc8ad.js",
+    "index.html": "/https//slav-0n.github.io/conspect_todo/index.html",
+    "main.d5e7bbf7.css.map": "/https//slav-0n.github.io/conspect_todo/static/css/main.d5e7bbf7.css.map",
+    "main.decdc8ad.js.map": "/https//slav-0n.github.io/conspect_todo/static/js/main.decdc8ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e7bbf7.css",
+    "static/js/main.decdc8ad.js"
+  ]
+}
